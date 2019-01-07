@@ -1,6 +1,6 @@
 # Object Oriented Programming in JavaScript
 
-##Contents
+## Contents
 - [Purpose](#purpose)
 - [Introduction](#introduction)
 - [Contributing](#contributing)
@@ -8,14 +8,14 @@
   - [ES6 Class Example](#es6classexample)
 
 <a name="purpose"/>
-##Purpose
+## Purpose
 The intent of this project is to create a set of reference recipes for specific
 object oriented needs. Like a cookbook this will show how to implement these in
 Javascript, but each recipe will also be accompanied by a list of pros, cons,
 and commentary about the technique.
 
 <a name="introduction"/>
-##Introduction
+## Introduction
 Object oriented programming (OOP) techniques are a valuable part of any
 programmers tool kit. [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
 is a proven programming practice which first gained the notice of the
@@ -62,9 +62,10 @@ contrast competing recipes.
 ##OOP Recipes
 ---
 <a name="es6classexample"/>
-###ES6 Class Example
-####Javascript
-```javascript
+### ES6 Class Example
+#### Javascript
+
+```js
 'use strict'
 // ES6 class constructor style
 // https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes
@@ -131,14 +132,15 @@ newYear2.greet();
 NewYear1.greetMore();
 NewYear1.greet();
 ```
-####Pros/cons
+
+#### Pros/cons
 | Pros                             | Cons                                |
 |----------------------------------|-------------------------------------|
 | Clear and concise code           | In ES6 Class is a leaky abstraction which uses ES5-style prototypal inheritance  |
 |                                  |                                     |
 
 
-####Commentary
+#### Commentary
 1. A working version can be found on [CodePen](https://goo.gl/0BAeNr)
 2. Thanks to <a href="https://github.com/Kornil">@kornil</a> for providing this example.
 
