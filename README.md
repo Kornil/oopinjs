@@ -69,6 +69,7 @@ contrast competing recipes.
 'use strict'
 // ES6 class constructor style
 // https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes
+
 class LastYear {
 	greetMore(){
 		console.log("hello "+this.x+"!");
@@ -86,9 +87,13 @@ class NewYear extends LastYear {
 	}
 }
 var newYear = new NewYear("John","Jane");
+
+
+
 //////////////////////
 // Classless OOP same as above, without classes
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
+
 function Last_year(){
   // code
 }
@@ -106,10 +111,14 @@ New_year.prototype.greet = function(){
   console.log("yo "+this.y+"!!");
 }
 var newYear2 = new New_year("John","Jane");
+
+
+
 /////////////////////
 // Kyle Simpson Object Linking Other Objects(OLOO) style
 // https://github.com/getify/You-Dont-Know-JS/tree/master/this%20%26%20object%20prototypes
 // chapter 4 and 5
+
 var LastYear1 = {
   greetMore: function(){
     console.log("hello "+this.x)
@@ -121,6 +130,9 @@ NewYear1.y = "Jane";
 NewYear1.greet = function(){
   console.log("yo "+this.y);
 }
+
+
+
 /////
 // ES6 class
 newYear.greetMore();
